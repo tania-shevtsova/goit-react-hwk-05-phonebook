@@ -1,0 +1,20 @@
+span {
+  display: block;
+}
+
+h2 {
+  display: block;
+}
+
+input {
+  margin-bottom: 20px;
+  margin-right: 30px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+}

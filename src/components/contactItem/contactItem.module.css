@@ -1,0 +1,35 @@
+.contactItem {
+  margin: 0;
+  width: 630px;
+  padding: 15px 12px;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.contactItemButtonDelete {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: red;
+  margin-top: 5px;
+}
+
+.contactItemButtonDelete:focus,
+.contactItemButtonDelete:hover {
+  outline: none;
+  cursor: pointer;
+}
+
+.closeSymbol {
+  color: #fff;
+  background-size: 100% 100%;
+  font-size: 30px;
+}
